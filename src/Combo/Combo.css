@@ -1,0 +1,61 @@
+.combo-page {
+  padding: 25px;
+}
+
+.combo-page h1 {
+  color: #e63920;
+  text-align: center;
+}
+
+.combo-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.combo-card {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.combo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.combo-card h3 {
+  margin: 10px 0 5px;
+}
+
+.combo-card p {
+  color: #777;
+  font-size: 14px;
+}
+
+.combo-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.combo-bottom b {
+  color: #e63920;
+  font-size: 18px;
+}
+
+.combo-bottom button {
+  background: #e63920;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.combo-bottom button:hover {
+  background: #c92f1b;
+}

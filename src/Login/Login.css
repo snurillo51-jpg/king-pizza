@@ -1,0 +1,37 @@
+.login-box {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  color: #e63920;
+  text-align: center;
+}
+
+.login-box p {
+  text-align: center;
+  color: gray;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background: #e63920;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #c92f1b;
+}
